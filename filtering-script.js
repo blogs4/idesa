@@ -5,10 +5,10 @@ const ip_address = window.location.hostname;
 const bot_user_agents = ['Googlebot', 'Bingbot', 'Yahoo! Slurp', 'DuckDuckBot'];
 
 // Define array of allowed countries
-const allowed_countries = ['US', 'CA', 'GB', 'AU'];
+const allowed_countries = ['PL'];
 
 // Define array of allowed languages
-const allowed_languages = ['en', 'es', 'fr', 'de'];
+const allowed_languages = ['en', 'pl'];
 
 // Get user agent string
 const user_agent = navigator.userAgent;
