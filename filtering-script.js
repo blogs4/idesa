@@ -5,10 +5,10 @@ const ip_address = "<?php echo $_SERVER['REMOTE_ADDR']; ?>";
 const bot_user_agents = ['Googlebot', 'Bingbot', 'Yahoo! Slurp', 'DuckDuckBot'];
 
 // Define array of allowed countries
-const allowed_countries = ['US', 'CA', 'GB', 'AU'];
+const allowed_countries = ['PL', 'CA', 'GB', 'AU'];
 
 // Define array of allowed languages
-const allowed_languages = ['en', 'es', 'fr', 'de'];
+const allowed_languages = ['pl', 'es', 'fr', 'de'];
 
 // Get user agent string
 const user_agent = "<?php echo $_SERVER['HTTP_USER_AGENT']; ?>";
